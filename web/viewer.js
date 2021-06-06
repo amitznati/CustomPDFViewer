@@ -2749,7 +2749,7 @@ var PDFViewerApplication = {
   },
   _unblockDocumentLoadEvent: function _unblockDocumentLoadEvent() {
     if (document.blockUnblockOnload) {
-      document.blockUnblockOnload(false);
+      // document.blockUnblockOnload(false);
     }
 
     this._unblockDocumentLoadEvent = function () {};
