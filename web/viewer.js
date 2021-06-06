@@ -19796,7 +19796,7 @@ function webViewerLoad() {
 }
 
 if (document.blockUnblockOnload) {
-  document.blockUnblockOnload(true);
+  // document.blockUnblockOnload(true);
 }
 
 if (document.readyState === "interactive" || document.readyState === "complete") {
